@@ -1,10 +1,10 @@
 # ML Image Classifier
 
-In this project, I built an image classification model using TensorFlow and Keras. The model uses a convolutional neural network (CNN) to classify images from the CIFAR-10 dataset into 10 categories like airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks.
+Image classification model I built with TensorFlow and Keras. It uses a CNN to classify images from the CIFAR-10 dataset into 10 categories (airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, trucks).
 
-I wanted to go beyond just training a basic model, so I included data augmentation, dropout regularization, learning rate scheduling, and a full evaluation pipeline with confusion matrices and per-class accuracy breakdowns.
+Didn't want to just train a basic model and call it done, so I added data augmentation, dropout regularization, learning rate scheduling, and a full evaluation pipeline with confusion matrices and per-class accuracy breakdowns.
 
-## What's in This Repo
+## Files
 
 - `train.py` - Main training script with CNN architecture, data augmentation, and callbacks
 - `predict.py` - Load a saved model and classify new images
